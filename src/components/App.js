@@ -1,6 +1,6 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import Flames from "./Flames";
+import Flames from "./Flames.js";
 
 const App = () => {
   const [answer, setAnswer] = useState("");
